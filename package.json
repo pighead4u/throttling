@@ -1,0 +1,18 @@
+{
+  "name": "throttling",
+  "version": "1.0.0",
+  "description": "just for throttling trying",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "throttling"
+  ],
+  "author": "zhuhuanhuan",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "restify": "^4.1.1"
+  }
+}

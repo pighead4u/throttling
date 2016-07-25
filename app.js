@@ -13,14 +13,15 @@ function respond(req, res, next) {
 
 var server = restify.createServer({
     log: log,
-    body: true
+    body: true,
+    version: "1.0.0"
 });
 
 server.use(restify.throttle({
     burst: 2,
     rate: 1,
     ip: true
-}));
+})); 
 
 server.use(restify.conditionalRequest());
 
